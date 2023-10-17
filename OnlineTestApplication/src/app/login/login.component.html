@@ -1,0 +1,17 @@
+<div id="login-box">
+    <h1>Login</h1>
+    <form #loginForm="ngForm" (ngSubmit)="login()">
+        <label for="email">Enter Your Email</label>
+        <input type="text" placeholder="Ex. 4.yashmishra@gmail.com" [(ngModel)]="email" name="email" required #emailInput="ngModel"><br>
+
+        <label for="password">Enter Your Password</label>
+        <input type="password" placeholder="Password" [(ngModel)]="password" name="password" required #passwordInput="ngModel"><br>
+
+        <button [disabled]="!loginForm.valid">Login</button>
+    </form>
+
+    <div id="register">
+        <h3>New User? </h3>
+        <a routerLink="/register">Sign Up Here</a>
+    </div>
+</div>

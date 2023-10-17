@@ -1,0 +1,14 @@
+<table class="score-table">
+    <tr>
+        <th>Name</th>
+        <th>Score</th>
+    </tr>
+    <tr *ngFor="let u of user">
+        <td>{{u.name}}</td>
+        <td>{{u.score}}</td>
+    </tr>
+</table>
+<div class="button-container">
+    <button routerLink="/welcome"><b>Retake The Quiz</b></button>
+    <button (click)="logout()"><b>LogOut</b></button>
+  </div>

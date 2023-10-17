@@ -1,0 +1,19 @@
+<div>
+  <h2>{{ questions[currentQuestionIndex].questionText }}</h2>
+<ul class="options-list">
+  <li *ngFor="let option of questions[currentQuestionIndex].options; let i = index">
+    <button
+      (click)="selectOption(i)"
+
+ 
+      [ngClass]="{
+        'selected-answer': i === selectedOptionIndex && !option.correct,
+        'correct-answer': i === selectedOptionIndex && option.correct,
+        'demo': i !== selectedOptionIndex &&option.correct && selectedOptionIndex !==null
+      }"
+    [disabled]="disableOption">
+      {{ option.text }}
+    </button>
+  </li>
+</ul>
+</div>

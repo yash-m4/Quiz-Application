@@ -1,0 +1,15 @@
+<div id="signup-box">
+    <h1>SignUp</h1>
+    <form #signupForm="ngForm" (ngSubmit)="registersubmit()">
+        <label for="name">Enter Your Name</label><br>
+        <input type="text" placeholder="Ex. Rahul, Shivani, etc" [(ngModel)]="name" name="name" required #nameInput="ngModel"><br>
+        <label for="email">Enter Your Email</label><br>
+        <input type="email" placeholder="Ex. 4.yashmishra@gmail.com" [(ngModel)]="email" name="email" required #emailInput="ngModel" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}"><br>
+        <label for="password">Create Password</label><br>
+        <input type="password" placeholder="Password" [(ngModel)]="password" name="password" required #passwordInput="ngModel"><br>
+        <button [disabled]="!signupForm.valid">Register</button>
+    </form>
+
+    <h3>Account already exists? </h3>
+    <a routerLink="/login">Login Here</a>
+</div>

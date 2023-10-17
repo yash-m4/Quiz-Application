@@ -1,0 +1,175 @@
+{
+    "questions": [
+        {
+            "questionText": "What does JVM stand for?",
+            "options": [
+                {
+                    "text": "Java Virtual Machine",
+                    "correct": true
+                },
+                {
+                    "text": "Java Visual Machine"
+                },
+                {
+                    "text": "Java Variable Machine"
+                },
+                {
+                    "text": "Java Virtual Memory"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Which keyword is used for creating an instance of a class in Java?",
+            "options": [
+                {
+                    "text": "create"
+                },
+                {
+                    "text": "instantiate"
+                },
+                {
+                    "text": "instance"
+                },
+                {
+                    "text": "new",
+                    "correct": true
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "In Java, which data type is used for representing single characters?",
+            "options": [
+                {
+                    "text": "string"
+                },
+                {
+                    "text": "char",
+                    "correct": true
+                },
+                {
+                    "text": "character"
+                },
+                {
+                    "text": "chr"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "What is the access modifier for a method that can be accessed from anywhere in the same package?",
+            "options": [
+                {
+                    "text": "private"
+                },
+                {
+                    "text": "public",
+                    "correct": true
+                },
+                {
+                    "text": "protected"
+                },
+                {
+                    "text": "default"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "What does OOP stand for in the context of Java programming?",
+            "options": [
+                {
+                    "text": "Object-Oriented Programming",
+                    "correct": true
+                },
+                {
+                    "text": "Operator Overloading Principles"
+                },
+                {
+                    "text": "Object Optimization Protocol"
+                },
+                {
+                    "text": "Object Ownership Process"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Which keyword is used to define a constant value in Java?",
+            "options": [
+                {
+                    "text": "var"
+                },
+                {
+                    "text": "const"
+                },
+                {
+                    "text": "static"
+                },
+                {
+                    "text": "final",
+                    "correct": true
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "What is the Java keyword used for handling exceptions?",
+            "options": [
+                {
+                    "text": "throw"
+                },
+                {
+                    "text": "try",
+                    "correct": true
+                },
+                {
+                    "text": "catch"
+                },
+                {
+                    "text": "exception"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Which data structure in Java stores elements in a last-in-first-out (LIFO) order?",
+            "options": [
+                {
+                    "text": "Stack",
+                    "correct": true
+                },
+                {
+                    "text": "Queue"
+                },
+                {
+                    "text": "Array"
+                },
+                {
+                    "text": "List"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "What is the purpose of the break statement in a Java switch statement?",
+            "options": [
+                {
+                    "text": "To exit the switch block",
+                    "correct": true
+                },
+                {
+                    "text": "To exit the loop"
+                },
+                {
+                    "text": "To exit the method"
+                },
+                {
+                    "text": "To exit the program"
+                }
+            ],
+            "explanation": ""
+        }
+    ]
+}

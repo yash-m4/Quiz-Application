@@ -1,0 +1,62 @@
+.quiz-container {
+    text-align: center;
+    padding: 20px;
+  }
+  h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .question-text {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .correct-answer {
+    background-color: green;
+    color: white;
+  }
+  .demo{
+    background-color: green;
+    color: white;
+  }
+  .selected-answer {
+    background-color: red;
+    color: white;
+  }
+  
+  
+  .options-list {
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+  }
+  
+  .options-list li {
+    cursor: pointer;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .options-list li.correct {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .options-list li.incorrect {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .navigation-buttons {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+  }
+  
